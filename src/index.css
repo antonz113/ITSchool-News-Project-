@@ -29,7 +29,13 @@ ul {
 a {
   display: block;
   text-decoration: none;
+  color: inherit;
 }
+
+a:hover {
+  color: inherit;
+}
+
 
 /* Customizam Bootstrap: */
 .btn-secondary,

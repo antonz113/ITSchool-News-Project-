@@ -42,7 +42,7 @@ function Header() {
               </li>
               <li className={isDisplayed ? "container" : null}>
                 <Link
-                  to='/category/footbal'
+                  to='/category/football'
                   className='p-3 text-uppercase text-light'>
                   Fotbal
                 </Link>
