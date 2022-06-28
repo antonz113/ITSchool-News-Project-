@@ -13,6 +13,7 @@ const NewsCardsList = (props) => {
               thumbnail={newsItem.thumbnail}
               title={newsItem.title}
               description={newsItem.description}
+              hasCloseButton={newsItem.hasCloseButton}
             />
           </Col>
         ))}

@@ -31,6 +31,7 @@ export const getNewsDetails = (apiResponse) => {
     author: rawNewsDetails.fields.byline,
     date: rawNewsDetails.webPublicationDate,
     content: rawNewsDetails.fields.body,
+    thumbnail: rawNewsDetails.fields.thumbnail,
   };
 
   return adaptedNewsDetails;
